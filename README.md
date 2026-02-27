@@ -1,26 +1,26 @@
 # agent-skills
 
-[![中文](https://img.shields.io/badge/中文-切换到中文-0A66C2?style=for-the-badge)](#中文)
-[![English](https://img.shields.io/badge/English-Switch_to_English-1F8A70?style=for-the-badge)](#english)
+[Chinese](#chinese) | [English](#english)
 
 ---
 
-## 中文
+## Chinese
 
-本仓库用于存放本地 Codex Agent Skills，以及对应的参考文档和脚本工具。
+This repository stores local Codex Agent Skills, related reference docs, and helper scripts.
 
-### 目录结构
+### Structure
 
-- `codex-code-review/`：代码审查相关的技能说明、参考资料与辅助脚本。
+- `codex-code-review/`: Code review skill instructions, references, and helper scripts.
+- `design-guide/`: Website design extraction and design-guide generation skill, including CLI source, docs, and dependency config.
 
-### 使用方式
+### Usage
 
-在 Codex 环境中将本仓库作为本地工作区使用，即可按技能说明调用对应能力。
+Use this repository as your local Codex workspace. Enter the target skill directory and follow its `SKILL.md` or `README.md`.
 
-### 说明
+### Notes
 
-- 主分支：`main`
-- 仓库可见性：Public（GitHub 公开仓库）
+- Primary branch: `main`
+- Repository visibility: Public on GitHub
 
 ---
 
@@ -31,10 +31,11 @@ This repository stores local Codex agent skills, along with related references a
 ### Structure
 
 - `codex-code-review/`: Skill instructions, reference docs, and helper scripts for code review workflows.
+- `design-guide/`: Website design extraction and guide generation skill, including skill docs, CLI tool, and dependency config.
 
 ### Usage
 
-Use this repository in your local Codex workspace and follow each skill's instructions to run the workflows.
+Use this repository in your local Codex workspace, then open the target skill directory and follow its `SKILL.md` or `README.md`.
 
 ### Notes
 
