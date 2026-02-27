@@ -1,26 +1,26 @@
 # agent-skills
 
-[Chinese](#chinese) | [English](#english)
+[中文](#中文) | [English](#english)
 
 ---
 
-## Chinese
+## 中文
 
-This repository stores local Codex Agent Skills, related reference docs, and helper scripts.
+本仓库用于存放本地 Codex Agent Skills，以及相关参考文档和辅助脚本。
 
-### Structure
+### 目录结构
 
-- `codex-code-review/`: Code review skill instructions, references, and helper scripts.
-- `design-guide/`: Website design extraction and design-guide generation skill, including CLI source, docs, and dependency config.
+- `codex-code-review/`：代码审查技能说明、参考资料和辅助脚本。
+- `design-guide/`：网站设计提取与设计指南生成技能，包含 CLI 源码、文档和依赖配置。
 
-### Usage
+### 使用方式
 
-Use this repository as your local Codex workspace. Enter the target skill directory and follow its `SKILL.md` or `README.md`.
+将本仓库作为本地 Codex 工作区使用，进入目标技能目录后按 `SKILL.md` 或 `README.md` 执行。
 
-### Notes
+### 说明
 
-- Primary branch: `main`
-- Repository visibility: Public on GitHub
+- 主分支：`main`
+- 仓库可见性：Public（GitHub 公开仓库）
 
 ---
 
